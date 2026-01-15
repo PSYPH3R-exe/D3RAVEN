@@ -1,0 +1,16 @@
+{
+  "WW_BARB": {
+    "class": "BARBARIAN",
+    "required_items": {
+      "helm": ["Wrath of the Wastes"],
+      "chest": ["Wrath of the Wastes"],
+      "weapon": ["Bul-Kathos's Solemn Vow", "Bul-Kathos's Warrior Blood"]
+    },
+    "slot_priorities": {
+      "helm": ["strength", "crit_chance"],
+      "gloves": ["crit_chance", "crit_damage"],
+      "rings": ["crit_chance", "socket"],
+      "weapon": ["strength", "socket"]
+    }
+  }
+}
