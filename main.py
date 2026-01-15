@@ -21,10 +21,7 @@ def main():
     while running:
         update_context(context)
         state = state_machine.current()
-        # Each state should have a tick(context) method or similar
-        # For now, just print state for demonstration
-        print(f"Current state: {state}")
-        # TODO: Call state.tick(context) when implemented
+        state.tick(context)
         watchdog_check()
 
 if __name__ == "__main__":
