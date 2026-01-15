@@ -11,9 +11,9 @@ def init():
     return ctx, sm
 
 
+
 def update_context(context):
-    # TODO: Fill in with perception and game state updates
-    pass
+    context.update()
 
 def main():
     context, state_machine = init()
